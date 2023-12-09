@@ -1,11 +1,6 @@
-var variable = 30;
+foo = 30;
+console.log("Foo",foo);
 
-(() => {
-  console.log(variable);
-  variable = 20;
-  console.log(variable);
-})(); // iife
+var foo =  100;
 
-console.log(variable);
-
-var variable = 30;
+console.log("Foo",foo);
